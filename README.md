@@ -18,9 +18,11 @@ SMTP2GO (for sending emails)
 **Usage**
 
 To run the scraper manually:
+
 python scraper.py  
 
 The script will:
+
 Scrape hotel prices
 Save data in a CSV file
 Send an email report
@@ -30,10 +32,13 @@ Send an email report
 The script runs daily at 00:35 using schedule. To ensure continuous execution:
 
 Run in the background (Linux/Mac):
+
 nohup python scraper.py &  
 
 Or set up a cron job:
+
 crontab -e  
 
 Add the following line:
+
 35 0 * * * /usr/bin/python3 /path/to/scraper.py  
