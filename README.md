@@ -19,7 +19,7 @@ SMTP2GO (for sending emails)
 
 To run the scraper manually:
 
-python scraper.py  
+_python scraper.py_  
 
 The script will:
 
@@ -33,12 +33,12 @@ The script runs daily at 00:35 using schedule. To ensure continuous execution:
 
 Run in the background (Linux/Mac):
 
-nohup python scraper.py &  
+_nohup python scraper.py &_ 
 
 Or set up a cron job:
 
-crontab -e  
+_crontab -e_
 
 Add the following line:
 
-35 0 * * * /usr/bin/python3 /path/to/scraper.py  
+_35 0 * * * /usr/bin/python3 /path/to/scraper.py_  
