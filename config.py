@@ -1,12 +1,12 @@
 hotel_names = [
-    "qubuswroclaw",
-    "arthotelwroclaw",
-    "hpparkplazawroclaw",
-    "monopol-wroclaw",
-    "puro-wroclaw",
-    "korona-market-square-wroclaw",
-    "grand-city-wroclaw",
-    "ac-by-marriott-wroclaw"
+    "hotel1",
+    "hotel2",
+    "hotel3",
+    "hotel4",
+    "hotel5",
+    "hotel6",
+    "hotel7",
+    "hotel8"
 ]
 
 # Define location
